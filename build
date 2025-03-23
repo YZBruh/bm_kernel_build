@@ -3,9 +3,9 @@
 set -ex
 
 # Kernel Source
-KERNEL_SOURCE=https://github.com/xiaomi-mediatek-devs/android_kernel_xiaomi_mt6877
-KERNEL_BRANCH=lineage-21
-KERNEL_DEFCONFIG=ruby_defconfig
+KERNEL_SOURCE=https://github.com/YZBruh/android_kernel_samsung_gta9pwifi
+KERNEL_BRANCH=master
+KERNEL_DEFCONFIG=vendor/gta9pwifi_eur_open_defconfig
 
 # Prebuilt Proton Clang Toolchain
 CLANG=https://github.com/kdrag0n/proton-clang.git
